@@ -1,0 +1,497 @@
+@charset "utf-8";
+
+body{
+    font-size: 16px;
+    font-family: "Noto Sans JP", "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    color: #222222;
+    line-height: 1.5em;
+    font-feature-settings: "palt";
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.main_title{
+    position: relative;
+    width: 1000fem;
+}
+
+.main_li{
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    margin:0;
+    padding:0;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    width: 350px;
+}
+
+.main_copy{
+    padding-bottom: 20px;
+    font-size: 45px;
+    margin-bottom:20px;
+}
+
+.sub_copy{
+    padding-top: 60px;
+    font-size: 36px;
+    text-align: center;
+    width: 900px;
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.section_title{
+    padding-top: 84px;
+    text-align: center;
+    padding-bottom: 24px;
+    font-size: 24px;
+    color: #ffd61a;
+}
+
+.news-heading{
+    font-weight: bold;
+    font-size: 24px;
+    padding-top: 60px;
+    color: #222222;
+}
+
+.small{
+    text-align: center;
+    padding-bottom: 64px;
+}
+
+.about_school{
+    text-align: center;
+    padding-bottom: 64px;
+}
+
+.section_text{
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.school_is{
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.course_img{
+    width: 100%;
+    height: auto;
+}
+
+.course_item{
+    background-color: #fafafa;
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.btn{
+    display: block;
+    color: white;
+    width: 200px;
+    font-size: 21px;
+    margin: auto;
+}
+
+.signup{
+    background-color: #ffa31a;
+    text-align: center;
+    padding: 21px;
+    margin-top: 56px;
+    margin-bottom: 48px;
+}
+
+.navigation{
+    display: flex;
+    width: 1000px;
+    margin: auto;
+}
+
+.new_list{
+    padding: 0 16px;
+}
+
+.date{
+    padding-top: 32px;
+    padding-bottom: 14px;
+}
+
+.access{
+    background-color: #fafafa;
+    padding-bottom: 80px;
+}
+
+.main_access{
+    padding-top: 64px;
+    font-size: 28px;
+    margin-bottom: 24px;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.sub_title{
+    padding-bottom: 64px;
+    font-weight: bold;
+}
+
+.map {
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    margin-bottom: 64px;
+  }
+
+.google_map {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+.info{
+    max-width: 550px;
+    display: flex;
+	justify-content: center;
+	width:90%;
+	margin:0 auto;
+  }
+
+.info_gs{
+    display: flex;
+    padding-bottom: 80px;
+    padding:15px 0;
+	display: flex;
+}
+
+.label{
+    display: flex;
+	flex-direction: column;
+	padding-right:50px;
+}
+
+.label-list {
+	padding:15px 0;
+}
+
+.label2{
+    padding-bottom: 20px;
+}
+
+.main_contact{
+    padding-bottom: 32px;
+}
+
+.how_school_is {
+    text-align: center;    
+}
+
+.main_form{
+    max-width: 600px;
+    margin: auto;
+}
+
+.form_inner{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 80px;
+}
+
+.form_title{
+    width: 178px;
+    margin: 0 20px 0 0;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.form_item{
+    width: 400px;
+    margin: 0 0 24px;
+}
+
+.btn2 {
+    display: block;
+    color: white;
+    width: 298px;
+    font-size: 18px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 48px;
+}
+
+.textarea{
+    resize: none;
+    width:386px;
+    height:108px;
+    border: #bfbfbf solid;
+}
+
+.footer{
+    padding: 24px 0;
+    background-color: #707070;
+    color: white;
+    text-align: center;
+    padding: 24px;
+}
+
+.submit{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 64px;
+}
+
+.frame{
+    border: #bfbfbf solid;
+    width: 386px;
+    height: 36px;
+}
+
+label{
+    display:block;
+    position:relative;
+    padding-left:3em;
+    line-height:2em;
+    font-size: 14px;
+  }
+
+label input{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    margin:auto;
+}
+
+.contact-heading{
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 80px;
+}
+
+.section-heading {
+    text-align: center;
+}
+
+.section-heading p {
+    margin-bottom: 50px;
+  }
+
+.course-heading {
+    color: #222222;
+    padding-top: 80px;
+}
+
+.section-heading h2{ 
+    font-size: 28px;
+    margin-bottom: 24px;
+    letter-spacing: 3px;
+    font-weight: bold;
+  }
+
+.section-heading li {
+    margin-bottom: 64px;
+  }
+
+.under-section-heading {
+    font-weight: bold;
+    text-align: center;
+  }
+
+.course-list {
+    line-height: 0;
+}
+
+.item-box {
+    display: flex;
+    flex-wrap: wrap
+}
+
+.item-box li {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    background-color: rgba(423, 352, 525, 0.5);
+}
+
+.img-item {
+    width: 100%;
+  }
+
+.item-right {
+  margin-left: 10px;
+}
+
+.item-wrap {
+    line-height: 2;
+    padding: 0 30px;
+}
+
+.item-wrap h2{
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+/*
+ヘッダー
+-------------------------------------------*/
+#menu-wrap {
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0,0,0,.5);
+    transition: .3s;
+  }
+  #menu {
+    list-style-type: none;
+    width: 960px;
+    margin: 0px auto;
+    padding: 0;
+  }
+  #menu li {
+    width: 20%;
+    float: left;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  #menu li a {
+    display: block;
+    width : 100%;
+    padding: 20px 0;
+    color: #fff;
+    font-size: 14px;
+    line-height: 1;
+    text-decoration: none;
+    transition: .3s;
+  }
+  #menu li a:hover {
+    background: rgba(90, 84, 84, 0.3) 
+ }
+
+header .header_in {
+	margin-left: auto;
+	margin-right: auto;
+	padding-right: 10px;
+	padding-bottom: 10px;
+    padding-left: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.87);
+}
+
+header #logo {
+	font-size: 18px;
+	line-height: 20px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.drawer-nav ul {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.drawer-nav ul li {
+	display: inline-block;
+}
+
+#menu ul{
+	list-style: none;
+	background:transparent;
+ 
+}
+ 
+#menu ul li{
+	display: inline-block;
+}
+ 
+#menu ul li a{
+	padding: 30px 15px;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 200;
+    letter-spacing: 3px;
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+ 
+}
+#menu ul.sticky li a{
+	padding: 10px;
+}
+
+/*
+フッダー
+ーーーーーーーーーーーーーーーーーーーーーーーー*/
+.btn-top{
+    position: absolute;
+    top: -80px;
+    right: 0;
+}
+
+.wrapper {
+    position: relative;
+
+}
+
+/* for js */
+
+.nav-item{
+    margin: 0 0 0 48px;
+}
+.nav-item>a{
+    display: block;
+    color: inherit;
+    text-transform: uppercase;
+}
+
+/* form */
+
+
+
+
+
+/*    button   */
+#rect {
+    margin:100px auto 0;
+    padding:20px;
+    text-align:center;
+}
+
+/*   header  */
+
+
+
+/*       */
+
+.item-box {
+    transition: opacity 0.7s;
+  -moz-transition: opacity 0.7s;
+  -webkit-transition: opacity 0.7s;
+  -o-transition: opacity 0.7s;
+  transition: transform 0.7s;
+  -moz-transition: transform 0.7s;
+  -webkit-transition: transform 0.7s;
+  -o-transition: transform 0.7s;
+}
